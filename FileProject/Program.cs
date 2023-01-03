@@ -34,7 +34,7 @@ namespace FileProject
 
                 streamReader = new StreamReader(fileStreamWrite);
 
-                streamWriter.WriteLine("    New Line");
+                streamWriter.WriteLine("   New Line");
 
 
                 String fileContent = streamReader.ReadLine();
